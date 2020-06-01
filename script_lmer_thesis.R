@@ -1,7 +1,7 @@
 # STEP 1: load data
-data_pitch<- read.csv("export_dataframe.csv")
-data_duration <- read.csv("export_duration.csv")
-data_behavior<- read.csv("export_complete_data.csv")
+data_pitch<- read.csv("[file].csv")
+data_duration <- read.csv("[file].csv")
+data_behavior<- read.csv("[file].csv")
 
 #STEP 2: install and load relevant packages
 #install.packages('lme4')
